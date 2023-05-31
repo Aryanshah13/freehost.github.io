@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/stylesheet.css">
+    </head>
+    <body>
+        <style>
+            #addbtn{
+        padding: 5px;
+        border-radius: 5px;
+        background-color:cyan;
+        color:black;
+        border-radius: 5px;   
+    }
+    
+        </style>
+         <style>
+            #Backbtn{
+        padding: 5px;
+        border-radius: 5px;
+        background-color:cyan;
+        color:black;
+        border-radius: 5px;   
+    }
+    
+        </style>
+        
+        
+        <center>
+        <div id="bodySection">
+            <form action="../api/class.php" method="post">
+    <form action="#">
+    <input type="number" name="class_no" placeholder="enter class_no">
+    <input type="text" name="division" placeholder="enter division">
+    <input type="number" name="reg_no" placeholder="enter registration number">
+    <button id="addbtn" type="submit">add</button><br><br>
+</form>
+<form action="dashboard.php" method="post">
+    <button id="Backbtn" type="submit">Back</button><br><br>
+    </form>
+
+</div>
+</center>
+</body>
+</html>

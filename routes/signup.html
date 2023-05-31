@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Fees management system - Signup</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+<body>
+    <style>
+        #Signupbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:cyan;
+    color:black;
+    border-radius: 5px;   
+}
+
+    </style>
+    <center>
+    <div id="headerSection">
+        <h1>Fees management system</h1>
+    </div>
+        <hr>
+    <div id="bodySection">
+        <h2>Signup</h2>
+        <form action="../api/signup.php" method="post">
+            <input type="text" name="name" placeholder="enter name"><br><br>
+            <input type="text" name="email" placeholder="enter Email ID"><br><br>
+            <input type="password" name="password" placeholder="enter password"><br><br>
+            <input type="password" name="cpassword" placeholder="confirm password"><br><br>
+            <button id="signupbtn">Signup</button><br><br>
+            Already a user? <a href="../login.html">Login here</a>
+
+        </form>
+    </div>
+</center>
+</body>
+</html>

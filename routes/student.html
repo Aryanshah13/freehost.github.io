@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/stylesheet.css">
+    </head>
+    <body>
+        <style>
+            #addbtn{
+        padding: 5px;
+        border-radius: 5px;
+        background-color:cyan;
+        color:black;
+        border-radius: 5px;   
+    }
+    
+        </style>
+        <style>
+            #Backbtn{
+        padding: 5px;
+        border-radius: 5px;
+        background-color:cyan;
+        color:black;
+        border-radius: 5px;   
+    }
+    
+        </style>
+        
+        
+        <center>
+        <div id="bodySection">
+            <form action="../api/student.php" method="post">
+    <form action="#">
+    <input type="text" name="fname" placeholder="enter first name">
+    <input type="text" name="faname" placeholder="enter father's name">
+    <input type="text" name="lname" placeholder="enter last name">
+    <input type="number" name="class" placeholder="enter class">
+    <input type="number" name="reg_no" placeholder="enter registration number">
+
+    <button id="addbtn" type="submit">add</button><br><br>
+</form>
+    <form action="dashboard.php" method="post">
+    <button id="Backbtn" type="submit">Back</button><br><br>
+    </form>
+
+</div>
+</center>
+</body>
+</html>
